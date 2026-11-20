@@ -1,0 +1,52 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    height: 1350px;
+}
+
+header {
+    height: 100px;
+	background-color: lightblue;
+}
+
+nav {
+    height: 50px;
+	background-color: lime;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+footer {
+    height: 100px;
+	background-color: lightgray;	
+}
+
+.formating {
+
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	border: 2px solid black;	
+
+}
+
+aside {
+
+	background-color: blue;	
+
+}
+
+.gender-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
